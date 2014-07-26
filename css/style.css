@@ -9,6 +9,14 @@
 	text-align: center;
 }
 
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
 .border{
 	border: 1px solid black;
 }
