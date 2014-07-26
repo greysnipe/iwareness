@@ -15,9 +15,5 @@ $(document).ready(function(){
 	$('#button3').click(function(){
 		scrollToAnchor("third");
 	});
-
-	$('#button4').click(function(){
-		scrollToAnchor("fourth");
-	});
 	
 });
