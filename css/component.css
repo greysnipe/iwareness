@@ -714,7 +714,7 @@
 }
 
 .btn-5:active {
-	background: #9053a9;
+	background: #CC0000;
 	top: 2px;
 }
 
@@ -742,7 +742,7 @@
 }
 
 .btn-5:active:before {
-	color: #703b87;
+	color: #CC0000;
 }
 
 /* Button 5a */
