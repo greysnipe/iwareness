@@ -2,14 +2,14 @@
   background-color: #FFFFFF;
   height: fixed;
   width: 100%;
-  padding-top: 250px;
+  padding-top: 200px;
   padding-bottom: 200px;
 }
 
 .login {
   background-color: #999999;
   height: fixed;
-  padding-top: 250px;
+  padding-top: 200px;
   padding-bottom: 200px;
   width: 100%;
 }
@@ -18,7 +18,7 @@
   background-color: #CC0000;
   height: 250;
   width: 100%;
-  padding-top: 250px;
+  padding-top: 200px;
   padding-bottom: 200px;
 }
 
