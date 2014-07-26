@@ -592,24 +592,24 @@
 	width: 40%;
 }
 
-/* Button 4 */
-.btn-4 {
+/* Button 4 register */
+.btn-4-register {
 	border-radius: 50px;
 	border: 3px solid #fff;
 	color: #fff;
 	overflow: hidden;
 }
 
-.btn-4:active {
-	border-color: #17954c;
+.btn-4-register:active {
+	border-color: #CC0000;
 	color: #17954c;
 }
 
-.btn-4:hover {
-	background: #24b662;
+.btn-4-register:hover {
+	background: #CC0000;
 }
 
-.btn-4:before {
+.btn-4-register:before {
 	position: absolute;
 	height: 100%;
 	font-size: 125%;
@@ -620,8 +620,39 @@
 	transition: all 0.3s;
 }
 
-.btn-4:active:before {
+.btn-4-register:active:before {
 	color: #17954c;
+}
+
+.btn-4-login {
+	border-radius: 50px;
+	border: 3px solid #fff;
+	color: #fff;
+	overflow: hidden;
+}
+
+.btn-4-login:active {
+	border-color: #999999;
+	color: #17954c;
+}
+
+.btn-4-login:hover {
+	background: #999999;
+}
+
+.btn-4-login:before {
+	position: absolute;
+	height: 100%;
+	font-size: 125%;
+	line-height: 3.5;
+	color: #fff;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn-4-login:active:before {
+	color: #999999;
 }
 
 /* Button 4a */

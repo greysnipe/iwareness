@@ -1,3 +1,27 @@
+.index {
+  background-color: #FFFFFF;
+  height: fixed;
+  width: 100%;
+  padding-top: 250px;
+  padding-bottom: 200px;
+}
+
+.login {
+  background-color: #999999;
+  height: fixed;
+  padding-top: 250px;
+  padding-bottom: 200px;
+  width: 100%;
+}
+
+.register {
+  background-color: #CC0000;
+  height: 250;
+  width: 100%;
+  padding-top: 250px;
+  padding-bottom: 200px;
+}
+
 meta.foundation-version {
   font-family: "/5.3.1/"; }
 
@@ -2664,9 +2688,7 @@ h6 {
 hr {
   border: solid #dddddd;
   border-width: 1px 0 0;
-  clear: both;
-  margin: 1.25rem 0 1.1875rem;
-  height: 0; }
+  clear: both;}
 
 /* Helpful Typography Defaults */
 em,
