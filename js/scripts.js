@@ -21,11 +21,7 @@ $(document).ready(function(){
 	});
 
 	$('#button5').click(function(){
-		scrollToAnchor("fifth");
-	});
-
-	$('#button6').click(function(){
-		scrollToAnchor("sixth");
+		scrollToAnchor("first");
 	});
 
 });
