@@ -34,19 +34,34 @@
 
         <section class="main-section">
           <!-- main content --> 
-          <a name="first"></a>
+           <a name="first"></a>
             <h1 class="center"> <img src="../lib/img/logos.png"></h1> 
-              <div class="panel center">
+              <div class="panel">
                 <div class="row">
                   <div class="small-3 large-6 columns mB20">
-                  Why You Need it?
+                  <h4>Why You Need it?</h4>
+                  <ul>
+                  <li>Security is one of the most important thing that everyone needs.</li>
+                  <li>Law enforcement isn't enough</li>
+                  </ul>
                   </div>
 
                   <div class="small-3 large-6 columns mB20">  
-                    Goal
+                    <h4 class="center">Goal</h4>
+                    <ul>
+                      <li>To help solve crime</li>
+                      <li>To help someone anonymously</li>
+                      <li>To create a place where everyone feel alot more secure</li>
+                      <li>Inform the crowd of what incident is currently happening</li>
+                    </ul>
+                  
+
+
+
                   </div>
                 </div>
               </div>
+
 
           <a name="second">
              
@@ -161,7 +176,7 @@
           </div>
          </div>
 
-          <a name="third"></a>
+         <a name="third"></a>
             <div class="panel">
               <h1 class="center logo"><span class="red">WHAT'S HAPPENING?</span></h1>
               <div class="row">
@@ -172,7 +187,7 @@
                           <div class="small-11">
                             <div class="row">
                               <div class="small-3 columns">
-                                <label for="right-label" class="right inline"><img class="default border mL5 mT-10" src="../lib/../lib/img/default.png"><span class="left small mL5">Name:</span><p class="center ">ANONYMOUSE</p></label>
+                                <label for="right-label" class="right inline"><img class="default border mL5 mT-10" src="../lib/img/default.png"><span class="left small mL5">Name:</span><p class="center ">ANONYMOUSE</p></label>
                               </div>
                               <div class="small-9 columns">
                                <textarea class="right" id="right-label" rows="4" ></textarea>
@@ -219,114 +234,151 @@
                               <div class="small-9  columns">
                                <textarea readonly="true" class="right" id="right-label" rows="6" style="overflow:auto" ></textarea>
                               </div>
-                                 
-
                             </div>
                           </div>
                         </div>
                       </form>
-                          
+
+                      <form>
+                        <div class="row">
+                          <div class="small-10">
+                            <div class="row">
+                              <div class="small-2 large-2 columns">
+                                <label for="right-label" class="right inline"><img class="default border" src="../lib/img/default.png">
+                                  <span class="left small mL5">Name:</span>
+                                </label>
+                              </div>
+                              <div class="small-1 large-1 columns">
+                                  <span class="left small mT50">Category:</span>
+                              </div>
+                              <div class="small-9  columns">
+                               <textarea readonly="true" class="right" id="right-label" rows="6" style="overflow:auto" ></textarea>
+                              </div>
+                            </div>
+                          </div>
                         </div>
+                      </form>
+
+                      <form>
+                        <div class="row">
+                          <div class="small-10">
+                            <div class="row">
+                              <div class="small-2 large-2 columns">
+                                <label for="right-label" class="right inline"><img class="default border" src="../lib/img/default.png">
+                                  <span class="left small mL5">Name:</span>
+                                </label>
+                              </div>
+                              <div class="small-1 large-1 columns">
+                                  <span class="left small mT50">Category:</span>
+                              </div>
+                              <div class="small-9  columns">
+                               <textarea readonly="true" class="right" id="right-label" rows="6" style="overflow:auto" ></textarea>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                </div>
               </div>
 
 
            
 
 
-            
+               
             <div class="panel">
             <h1 class="center"><span class="red logo">MOST WANTED</span></h1>
               <div class="row">
                 <div class="small-3 large-3 columns mB20">
-                  <div class="panel">
+                  <div class="panel-b">
                     <a href="#">
                     <img class="thumb border" src="../lib/img/sample/hakaton.jpg">
                     </a>
-                    <div>Name:</div>
-                    <div>Age:</div>
-                    <div>Alias:</div>
-                    <div>Case:</div>
+                    <div>Name: Ian Timothy Bradley</div>
+                    <div>Age: 25</div>
+                    <div>Alias: Bayani</div>
+                    <div>Case: Snatcher</div>
                   </div>    
                 </div>
                 <div class="small-3 large-3 columns mB20">
-                  <div class="panel">  
+                  <div class="panel-b">  
                     <a href="#">
                     <img class="thumb border" src="../lib/img/sample/hakaton2.jpg">
                     </a>
-                    <div>Name:</div>
-                    <div>Age:</div>
-                    <div>Alias:</div>
-                    <div>Case:</div>
+                    <div>Name: Sean McDonald</div>
+                    <div>Age: 17</div>
+                    <div>Alias: Totoy Timbog</div>
+                    <div>Case: Multiple Murder </div>
                   </div>  
                 </div>
                 <div class="small-3 large-3 columns mB20">
-                  <div class="panel">  
+                  <div class="panel-b">  
                     <a href="#">
                     <img class="thumb border" src="../lib/img/sample/hakaton3.jpg">
                     </a>
-                    <div>Name:</div>
-                    <div>Age:</div>
-                    <div>Alias:</div>
-                    <div>Case:</div>
+                    <div>Name: Rodney Agustin </div>
+                    <div>Age: 26</div>
+                    <div>Alias: King Pin </div>
+                    <div>Case: Drug Dealer </div>
                   </div>
                 </div>
                 <div class="small-3 large-3 columns mB20">
-                  <div class="panel">  
+                  <div class="panel-b">  
                     <a href="#">
                     <img  class="thumb border" src="../lib/img/sample/hakaton4.jpg">
                     </a>
-                     <div>Name:</div>
-                    <div>Age:</div>
-                    <div>Alias:</div>
-                    <div>Case:</div>
+                     <div>Name: Joe Mark Litter</div>
+                    <div>Age: 20</div>
+                    <div>Alias: Maligno</div>
+                    <div>Case: Kidnaper </div>
                   </div> 
                 </div>
               </div>
 
                  <div class="row">
                   <div class="small-3 large-3 columns">
-                    <div class="panel">
+                    <div class="panel-b">
                       <a href="#">
-                      <img class="thumb border" src="../lib/img/sample/hakaton.jpg">
+                      <img class="thumb border" src="../lib/img/sample/hakaton5.jpg">
                       </a>
-                      <div>Name:</div>
-                      <div>Age:</div>
-                      <div>Alias:</div>
-                      <div>Case:</div>
+                      <div>Name: Jercules Malakas</div>
+                      <div>Age: 26</div>
+                      <div>Alias: Manga </div>
+                      <div>Case: Rapist </div>
                     </div>  
                       
                 </div>
                 <div class="small-3 large-3 columns">
-                  <div class="panel">  
+                  <div class="panel-b">  
                     <a href="#">
-                    <img class="thumb border" src="../lib/img/sample/hakaton2.jpg">
+                    <img class="thumb border" src="../lib/img/sample/hakaton6.jpg">
                     </a>
-                    <div>Name:</div>
-                    <div>Age:</div>
-                    <div>Alias:</div>
-                    <div>Case:</div>
+                    <div>Name: Antonio Masukil</div>
+                    <div>Age: 26</div>
+                    <div>Alias: Sibat</div>
+                    <div>Case: Drug Lord </div>
                   </div>  
                 </div>
                 <div class="small-3 large-3 columns">
-                  <div class="panel">  
+                  <div class="panel-b">  
                     <a href="#">
-                    <img class="thumb border" src="../lib/img/sample/hakaton3.jpg">
+                    <img class="thumb border" src="../lib/img/sample/hakaton7.jpg">
                     </a>
-                    <div>Name:</div>
-                    <div>Age:</div>
-                    <div>Alias:</div>
-                    <div>Case:</div>
+                    <div>Name: Simon Malaglag</div>
+                    <div>Age: 35</div>
+                    <div>Alias: Pating </div>
+                    <div>Case: Abu Sayaf</div>
                   </div>
                 </div>
                 <div class="small-3 large-3 columns">
-                  <div class="panel">  
+                  <div class="panel-b">  
                     <a href="#">
-                    <img  class="thumb border" src="../lib/img/sample/hakaton4.jpg">
+                    <img  class="thumb border" src="../lib/img/sample/hakaton8.jpg">
                     </a>
-                     <div>Name:</div>
-                    <div>Age:</div>
-                    <div>Alias:</div>
-                    <div>Case:</div>
+                     <div>Name: Richard Dumungan</div>
+                    <div>Age: 45</div>
+                    <div>Alias: Malinaw</div>
+                    <div>Case: Human Traficking</div>
                   </div>  
                 </div>
               </div>
@@ -340,7 +392,7 @@
     </div>
 <?php require_once "header-footer/footer.php"; ?>
 <script>
-	
+  
 $("#form-addSN").submit(function(e){
   var form_data = $("#form-addSN").serialize();
   console.log(e);
