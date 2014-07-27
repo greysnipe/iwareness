@@ -34,6 +34,10 @@
 	border-right: 1px solid gray;
 }
 
+.border-radius{
+	border-radius: 10px;
+}
+
 .mT5{
 	margin-top: 5px;
 }
@@ -117,7 +121,7 @@
 }
 
 .block{
-	display: inline-block;
+	display: block;
 }
 
 .text-left{
@@ -136,5 +140,57 @@
 	margin-top: -20px;
 }
 
+a h1.red{
+	color: #CC0000;
 
+}
+
+a h1{
+	color: #CC0000;
+	cursor: default;
+}
+
+a legend{
+	cursor: default;	
+}
+
+.white{
+	color: #fff;
+}
+
+.btn-4-register .gray{
+	background-color: #949494;
+	opacity: 0.7;
+}
+
+
+
+.white{
+	color: #fff;
+}
+
+.fillup{
+	height: 660px;
+}
+
+textarea{
+	height: auto;
+	width: 100%;
+	resize: none;
+	border-radius: 10px;
+}
+
+.small{
+	font-size: 12px;
+
+}
+
+
+.mT-10{
+	margin-top: -10px;
+}
+
+.select{
+	width: inherit;
+}
 
