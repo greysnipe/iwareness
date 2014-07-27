@@ -145,6 +145,10 @@ a h1.red{
 
 }
 
+.red{
+	color: #CC0000;
+}
+
 a h1{
 	color: #CC0000;
 	cursor: default;
@@ -191,6 +195,5 @@ textarea{
 }
 
 .select{
-	width: inherit;
+	width: 100%;
 }
-
