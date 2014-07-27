@@ -15,7 +15,7 @@
             <div>
 
             <div class="small-3 large-3 columns mB20">
-             <h1><small>Hi, User!</small></h1>
+             <h1><medium>Hi, User!</medium></h1>
 
             </div>
           </section>
@@ -54,17 +54,12 @@
                       <li>To create a place where everyone feel alot more secure</li>
                       <li>Inform the crowd of what incident is currently happening</li>
                     </ul>
-                  
-
-
-
                   </div>
                 </div>
               </div>
 
 
-          <a name="second">
-             
+          
             <div class="panel mT-20">
             <h3 class="logo text-left block mL50">Recent Posts</h3>
               <div class="row">
@@ -112,15 +107,13 @@
         
             
 
-          <a name="fourth"></a>
-          <a name="first" />
+          <a name="second"></a>
           <div class="panel">
-            <a name="second" />
 
           <div class="row">
             <div class="small-6 large-6 column">
             <div class="panel fillup">
-              <h1 class="red center logo">REPORT LOST ITEM</h1>
+              <h1 class="center logo"><span class="red">REPORT LOST ITEM</span></h1>
               <div class="row">
                 <div class="large-offset-1 small-6 large-3 columns mB20">
                   <form id="form-addSN" method="post">
@@ -132,10 +125,10 @@
                         <div id="alert-msg" data-alert class="alert-box alert round hide">
                           alert that is rounded.
                         </div>
-                        <input type="text" placeholder="Serial Number" name="serial">
-                        <input type="text" placeholder="Item Name" name="item">
-                        <input type="date" placeholder="Date Lost" name="date">
-                        <input type="text" placeholder="Contact Number" name="contact">
+                        <input type="text" placeholder="Serial Number" name="serial" required>
+                        <input type="text" placeholder="Item Name" name="item" required>
+                        <input type="date" placeholder="Date Lost" name="date" required>
+                        <input type="text" placeholder="Contact Number" name="contact" required>
                         <input type="hidden"  name="form" value="sn">
                         <textarea type="text" placeholder="Message" name="message"></textarea>
                         <button type="submit" class="btn btn-4-login btn-4c icon-arrow-right">Submit</button>
@@ -150,7 +143,7 @@
 
           <div class="small-6 large-6 column">
             <div class="panel fillup">
-              <h1 class="red center logo">CHECK SERIAL NUMBER</h1>
+              <h1 class="center logo"><span class="red">CHECK SERIAL NUMBER</span></h1>
               <div class="row">
                 <div class="large-offset-1 small-6 large-3 columns mB20">
                   <form id="form-searchSN" method="post">
@@ -163,7 +156,7 @@
                           <span class="white">alert that is rounded.</span>
                           <a href="#" class="close">&times;</a>
                         </div>
-                        <input type="text" placeholder="Serial Number" name="serials">
+                        <input type="text" placeholder="Serial Number" name="serials" required>
                         <input type="hidden" name="form" value="sns">
                         <button type="submit" class="btn btn-4-register btn-4c icon-arrow-right">Check</button>
                       </label>
@@ -284,8 +277,7 @@
 
            
 
-
-               
+        <a name="fourth"></a>       
             <div class="panel">
             <h1 class="center"><span class="red logo">MOST WANTED</span></h1>
               <div class="row">
@@ -343,8 +335,8 @@
                       </a>
                       <div>Name: Jercules Malakas</div>
                       <div>Age: 26</div>
-                      <div>Alias: Manga </div>
-                      <div>Case: Rapist </div>
+                      <div>Alias: Makoy </div>
+                      <div>Case: Human Trafficking</div>
                     </div>  
                       
                 </div>
@@ -353,10 +345,10 @@
                     <a href="#">
                     <img class="thumb border" src="../lib/img/sample/hakaton6.jpg">
                     </a>
-                    <div>Name: Antonio Masukil</div>
+                    <div>Name: Antonio Masukil </div>
                     <div>Age: 26</div>
-                    <div>Alias: Sibat</div>
-                    <div>Case: Drug Lord </div>
+                    <div>Alias: Tonton</div>
+                    <div>Case: Carnaping </div>
                   </div>  
                 </div>
                 <div class="small-3 large-3 columns">
@@ -364,9 +356,9 @@
                     <a href="#">
                     <img class="thumb border" src="../lib/img/sample/hakaton7.jpg">
                     </a>
-                    <div>Name: Simon Malaglag</div>
-                    <div>Age: 35</div>
-                    <div>Alias: Pating </div>
+                    <div>Name: Abdul Was Ak</div>
+                    <div>Age: 32</div>
+                    <div>Alias: Sabog</div>
                     <div>Case: Abu Sayaf</div>
                   </div>
                 </div>
@@ -375,10 +367,10 @@
                     <a href="#">
                     <img  class="thumb border" src="../lib/img/sample/hakaton8.jpg">
                     </a>
-                     <div>Name: Richard Dumungan</div>
-                    <div>Age: 45</div>
-                    <div>Alias: Malinaw</div>
-                    <div>Case: Human Traficking</div>
+                     <div>Name:Manny No</div>
+                    <div>Age: 40</div>
+                    <div>Alias: Richboy</div>
+                    <div>Case: Mass Murder</div>
                   </div>  
                 </div>
               </div>

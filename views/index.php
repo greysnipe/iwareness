@@ -3,15 +3,15 @@
 <?php require_once '../includes/database/config.php'; ?>
 <?php require_once "header-footer/header.php"; ?>
 
-    <div class="index" align="center">
-      <a name="first">
-      <h1><img src="../lib/img/logos.png"/></h1>
-      <button id="button1" class="btn btn-5 btn-5b icon-arrow-right"><span>Sign In</span></button>
-      <button id="button2" class="btn btn-5 btn-5b icon-star"><span>Create Account</span></button>
+    <div class="index height30" align="center">
+      <a name="firstindex">
+      <h1><img class="floating" src="../lib/img/logos.png"/></h1>
+      <button id="buttonindex1" class="btn btn-5 btn-5b icon-arrow-right"><span>Sign In</span></button>
+      <button id="buttonindex2" class="btn btn-5 btn-5b icon-star"><span>Create Account</span></button>
     </div>
 
     <form id="form-login" type="post">
-      <a name="second">
+      <a name="secondindex">
         <div class="login">
           <div class="row">
             <div align="center" class="large-offset-3 large-6 columns">
@@ -27,7 +27,7 @@
     </form>
 
     <form id="form-signup" method="post">
-      <a name="third">   
+      <a name="thirdindex">   
       <div class="register">
         <div class="row">
           <div align="center" class="large-offset-3 large-6 columns">

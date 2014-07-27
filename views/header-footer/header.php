@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="../lib/css/font-awesome.css"/>
     <link rel="stylesheet" href="../lib/css/component.css"/>
     <link rel="stylesheet" href="../lib/css/default.css"/>
-    <link rel="stylesheet" href="../lib/css/style.css"/>
+    <link rel="stylesheet" href="../lib/css/style.css"/> 
+    <link rel="stylesheet" href="../lib/css/animation.css"/>
     <script src="../lib/js/vendor/modernizr.js"></script>
   </head>
   <body>
