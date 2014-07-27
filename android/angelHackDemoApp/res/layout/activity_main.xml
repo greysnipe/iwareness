@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#505050"
+    android:orientation="vertical" >
+
+    <ViewFlipper
+        android:id="@+id/vfMain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".89" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".11"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:adjustViewBounds="true"
+            android:background="#505050"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/socialnet" />
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="horizontal" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:adjustViewBounds="true"
+            android:background="#505050"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/serialsearch" />
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="horizontal" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:adjustViewBounds="true"
+            android:background="#505050"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/mostwanted" />
+    </LinearLayout>
+
+</LinearLayout>
